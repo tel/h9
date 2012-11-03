@@ -28,12 +28,12 @@ Haskell.
 
 # Plan 9
 
-## Now implemented
+### Now implemented
 
 - `cat`
 
-## To be implemented
+### To be implemented
 
-## Not to be implemented
+### Not to be implemented
 
 - `read`
