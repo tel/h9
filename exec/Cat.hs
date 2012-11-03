@@ -1,4 +1,18 @@
+{- |
 
+Module      : $Header$
+Description : Catenates files
+Copyright   : (c) 2012 Joseph Abrahamson
+License     : MIT
+Maintainer  : Joseph Abrahamson <me@jspha.com>
+
+Implements the Plan 9 'cat' command using lazy bytestrings and
+proxies. Together, these should allow the implementation to be O(1)
+space and to deterministically close files as soon as they have been
+read. Unlike many implementations, this 'cat' handles missing file
+arguments identically to Plan 9 'cat'.
+
+-}
 module Main where
 
 import System.Environment
