@@ -34,6 +34,8 @@ Haskell.
 
 ### To be implemented
 
+- `tee`
+
 ### Not to be implemented
 
 - `read`
