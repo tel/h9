@@ -14,19 +14,22 @@ category:            System
 build-type:          Simple
 cabal-version:       >=1.8
 
-library
-  hs-source-dirs:    src
-  exposed-modules:
-  other-modules:
-  build-depends:
-    base ==4.5.*
-  ghc-options: -O2 -Wall
+-- library
+--   hs-source-dirs:    src
+--   exposed-modules:
+--   other-modules:
+--   build-depends:
+--     base ==4.5.*
+--   ghc-options: -O2 -Wall
 
-executable h9
-  -- main-is:             
-  -- other-modules:       
+executable cat
+  hs-source-dirs: exec
+  main-is: Cat.hs
   build-depends:
-    base ==4.5.*
+    base == 4.5.*,
+    pipes >= 2.5.0,
+    bytestring >= 0.9.2.0,
+    transformers >= 0.3.0.0
   ghc-options: -O2 -Wall
 
 source-repository head
