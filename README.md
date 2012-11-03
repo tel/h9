@@ -25,3 +25,15 @@ these Plan 9 tools' functionality.
 This project isn't terribly difficult nor is it useful. The plan
 instead is to share ways of thinking about command line tools using
 Haskell.
+
+# Plan 9
+
+## Now implemented
+
+- `cat`
+
+## To be implemented
+
+## Not to be implemented
+
+- `read`
