@@ -35,6 +35,7 @@ Haskell.
 ### To be implemented
 
 - `tee`
+- `uniq`
 
 ### Not to be implemented
 
